@@ -20,6 +20,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
+import { LoginComponent } from './auth/login/login.component';
+import { PagIniComponent } from './auth/pag-ini/pag-ini.component';
+import { RegistrarComponent } from './auth/registrar/registrar.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { MatMenuModule } from '@angular/material/menu';
     HeaderComponent,
     SidebarComponent,
     NevigationComponent,
-    DashboardComponent
+    DashboardComponent,
+    LoginComponent,
+    PagIniComponent,
+    RegistrarComponent
   ],
   imports: [
     BrowserModule,
