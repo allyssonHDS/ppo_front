@@ -17,6 +17,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
+import { PagIniComponent } from './pag-ini/pag-ini.component';
+import { LoginComponent } from './login/login.component';
+import { RegistrarComponent } from './registrar/registrar.component';
 
 
 
@@ -24,7 +27,10 @@ import { MatMenuModule } from '@angular/material/menu';
   declarations: [
     AppComponent,
     NevigationComponent,
-    DashboardComponent
+    DashboardComponent,
+    PagIniComponent,
+    LoginComponent,
+    RegistrarComponent
   ],
   imports: [
     BrowserModule,
