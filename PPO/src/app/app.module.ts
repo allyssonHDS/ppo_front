@@ -3,9 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooterComponent } from './componts/footer/footer.component';
-import { HeaderComponent } from './componts/header/header.component';
-import { SidebarComponent } from './componts/sidebar/sidebar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 /* Angular materia */
@@ -21,21 +18,13 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 
-import { LoginComponent } from './auth/login/login.component';
-import { PagIniComponent } from './auth/pag-ini/pag-ini.component';
-import { RegistrarComponent } from './auth/registrar/registrar.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
-    HeaderComponent,
-    SidebarComponent,
     NevigationComponent,
-    DashboardComponent,
-    LoginComponent,
-    PagIniComponent,
-    RegistrarComponent
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
