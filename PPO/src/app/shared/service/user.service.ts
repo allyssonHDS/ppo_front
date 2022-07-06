@@ -1,24 +1,25 @@
+// import { Injectable } from "@angular/core";
 
-@Injectable({
-    providedIn: 'root'
-})
+// @Injectable({
+//     providedIn: 'root'
+// })
 
-export class UserService {
+// export class UserService {
 
-    apiUrl = 'http://localhost:3100/usuario';
+//     apiUrl = 'http://localhost:3100/usuario';
 
-    httpOptions = {
-        headers: new HttpHeaders({
-            'Content-Type': 'application/json'
-        })
-    };
+//     httpOptions = {
+//         headers: new HttpHeaders({
+//             'Content-Type': 'application/json'
+//         })
+//     };
 
-    constructor(
-        private httpClient: HttpClient
-    ) { }
+//     constructor(
+//         private httpClient: HttpClient
+//     ) { }
 
-    public getUser(): Observable<ResponsePageable> {
-        return this.httpClient.get<ResponsePageable>(this.apiUrl + user)
-    }
+//     public getUser(): Observable<ResponsePageable> {
+//         return this.httpClient.get<ResponsePageable>(this.apiUrl + user)
+//     }
 
-}
+// }
