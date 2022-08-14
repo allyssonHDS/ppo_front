@@ -6,13 +6,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { PagIniComponent } from './pag-ini/pag-ini.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrarComponent } from './registrar/registrar.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
- // { path: 'dashboard', component: DashboardComponent },
-  {path: '', redirectTo: 'pag-ini', pathMatch:'full'},
-  {path: '', component: PagIniComponent},
-  {path: 'login', component: LoginComponent},
-  {path: 'registrar', component:RegistrarComponent}
+  { path: 'dashboard', component: DashboardComponent },
+  // {path: '', redirectTo: 'pag-ini', pathMatch:'full'},
+  //{path: '', component: PagIniComponent},
+  //{path: 'login', component: LoginComponent},
+  //{path: 'registrar', component:RegistrarComponent}
 
 ];
 

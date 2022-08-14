@@ -17,6 +17,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
+/*Componetes  */
+import { ReactiveFormsModule } from '@angular/forms';
 import { PagIniComponent } from './pag-ini/pag-ini.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrarComponent } from './registrar/registrar.component';
