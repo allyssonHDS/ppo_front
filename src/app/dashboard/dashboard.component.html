@@ -1,5 +1,16 @@
 <div class="grid-container">
-  <h1 class="mat-h1">Dashboard</h1>
+  <h1 class="mat-h1">
+    <button mat-button [matMenuTriggerFor]="menu"><i class="material-icons blue">menu</i></button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item><img class="logo" src="assets/Group.png" alt="logo">Dashboard</button>
+      <button mat-menu-item><img class="logo" src="assets/computacao-em-nuvem 1 (1).png" alt="logo">Meus Brokers</button>
+      <button mat-menu-item><img class="logo" src="assets/dados 1.png" alt="logo">Meus Canais</button>
+      <button mat-menu-item><img class="logo" src="assets/dispositivos-eletronicos 1.png" alt="logo">Meus Dispositivos</button>
+      <button mat-menu-item><img class="logo" src="assets/dispositivo 1.png" alt="logo">Meus Grupos</button>
+      <button mat-menu-item><img class="logo" src="assets/lista-de-controle 1.png" alt="logo">Meus Topicos</button>
+      <button mat-menu-item><img class="logo" src="assets/historia 1.png" alt="logo">Histórico</button>
+    </mat-menu>
+    Dashboard</h1>
   <mat-grid-list cols="2" rowHeight="350px">
     <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
       <mat-card class="dashboard-card">

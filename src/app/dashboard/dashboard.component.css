@@ -19,3 +19,8 @@
 .dashboard-card-content {
   text-align: center;
 }
+
+.logo{
+  max-height: 30px;
+  margin-right: 5px;
+}
