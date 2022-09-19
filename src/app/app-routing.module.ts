@@ -10,10 +10,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
-  // {path: '', redirectTo: 'pag-ini', pathMatch:'full'},
-  //{path: '', component: PagIniComponent},
-  //{path: 'login', component: LoginComponent},
-  //{path: 'registrar', component:RegistrarComponent}
+  {path: '', redirectTo: 'pag-ini', pathMatch:'full'},
+  {path: '', component: PagIniComponent},
+  {path: 'login', component: LoginComponent},
+  {path: 'registrar', component:RegistrarComponent}
 
 ];
 
