@@ -25,6 +25,8 @@ import { RegistrarComponent } from './registrar/registrar.component';
 
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
