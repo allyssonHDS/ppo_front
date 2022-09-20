@@ -27,7 +27,6 @@ import { FormsModule } from '@angular/forms'
 import { PagIniComponent } from './pag-ini/pag-ini.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrarComponent } from './registrar/registrar.component';
-import { UsersComponent } from './users/users.component';
 
 
 
@@ -38,12 +37,10 @@ import { UsersComponent } from './users/users.component';
 @NgModule({
   declarations: [
     AppComponent,
-
     DashboardComponent,
     PagIniComponent,
     LoginComponent,
-    RegistrarComponent,
-    UsersComponent
+    RegistrarComponent
   ],
   imports: [
     BrowserModule,
