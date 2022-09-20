@@ -21,12 +21,14 @@
     padding: 6px 174px;
 }
 .buton{
-    padding: 10px 115px;
+    padding: 6px 110px;
     background-color: rgb(165, 161, 161);
     color: black;
     border: none;
-    font-size: 16px;
+    font-size: 19.5px;
     text-align: center;
     border-radius: 4px;
 }
 .c{max-height: 29px;}
+
+
