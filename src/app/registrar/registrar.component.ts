@@ -1,6 +1,6 @@
 import { getLocaleDateFormat } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import RequestCreat from './registrar.model';
+import { RequestCreat } from "./registrar.model";
 
 @Component({
   selector: 'app-registrar',

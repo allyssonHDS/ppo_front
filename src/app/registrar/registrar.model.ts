@@ -1,4 +1,4 @@
-export default interface RequestCreat {
+export interface RequestCreat {
     nome: string;
     nomeUsuario: string;
     email: string;
@@ -6,7 +6,7 @@ export default interface RequestCreat {
     papel: string;
     dataHoraRegistro: Date;
 }
-export default interface ResponseCreate {
+export interface ResponseCreate {
     nome: string;
     nomeUsuario: string;
     email: string;

@@ -18,8 +18,6 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { HttpClientModule } from '@angular/common/http';
-import { FormBuilder, FormGroup, Validators } from "@angular/forms";
-import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 
 /*Componetes  */
@@ -27,12 +25,6 @@ import { FormsModule } from '@angular/forms';
 import { PagIniComponent } from './pag-ini/pag-ini.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrarComponent } from './registrar/registrar.component';
-
-
-
-
-
-
 
 @NgModule({
   declarations: [

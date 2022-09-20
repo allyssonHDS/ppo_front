@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { RequestCreat, ResponseCreat } from "./registrar.model";
+import { RequestCreat, ResponseCreate } from "./registrar.model";
 @Injectable({
     providedIn: 'root'
 })
@@ -11,8 +11,8 @@ export class UserService {
 
     constructor(private http: HttpClient) { }
 
-    registrar(request: RequestCreat): Observable<ResponseCreat> {
-        return this.http.get<ResponseCreat>(this.url, request);
+    registrar(request: RequestCreat): Observable<ResponseCreate> {
+        return this.http.get<ResponseCreate>(this.url, request);
 
     }
 }
