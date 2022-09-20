@@ -17,8 +17,12 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
-/*Componetes  */
+import { HttpClientModule } from '@angular/common/http';
+import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { ReactiveFormsModule } from '@angular/forms';
+
+/*Componetes  */
+
 import { PagIniComponent } from './pag-ini/pag-ini.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrarComponent } from './registrar/registrar.component';
@@ -30,7 +34,7 @@ import { RegistrarComponent } from './registrar/registrar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    
+
     DashboardComponent,
     PagIniComponent,
     LoginComponent,
@@ -48,7 +52,9 @@ import { RegistrarComponent } from './registrar/registrar.component';
     LayoutModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    HttpClientModule
+
 
   ],
   providers: [],
