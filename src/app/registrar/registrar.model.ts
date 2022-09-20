@@ -4,7 +4,7 @@ export default interface RequestCreat {
     email: string;
     senha: string;
     papel: string;
-    //dataHoraRegistro: Date;
+    dataHoraRegistro: Date;
 }
 export default interface ResponseCreate {
     nome: string;

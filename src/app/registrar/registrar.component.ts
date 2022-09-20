@@ -1,3 +1,4 @@
+import { getLocaleDateFormat } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import RequestCreat from './registrar.model';
 
@@ -8,11 +9,15 @@ import RequestCreat from './registrar.model';
 })
 export class RegistrarComponent implements OnInit {
 
-  //request: RequestCreat = {
-  //nome: '',
-  //nomeUsuario: ''
+  request: RequestCreat = {
+    nome: "",
+    nomeUsuario: "",
+    email: "",
+    senha: "",
+    papel: "",
+    dataHoraRegistro: new Date()
 
-  // }
+  }
 
   constructor() { }
 
