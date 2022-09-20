@@ -20,7 +20,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { HttpClientModule } from '@angular/common/http';
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { ReactiveFormsModule } from '@angular/forms';
-
+import { FormsModule } from '@angular/forms'
 /*Componetes  */
 
 import { PagIniComponent } from './pag-ini/pag-ini.component';
@@ -55,7 +55,8 @@ import { RegistrarComponent } from './registrar/registrar.component';
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
 
 
   ],
