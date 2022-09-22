@@ -12,7 +12,6 @@ export class UserService {
     constructor(private http: HttpClient) { }
 
     registrar(request: RequestCreat): Observable<ResponseCreate> {
-        return this.http.get<ResponseCreate>(this.url, request);
-
+        return this.http.post<ResponseCreate>(this.url, request);
     }
 }

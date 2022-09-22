@@ -14,9 +14,6 @@ export class RegistrarComponent implements OnInit {
     nomeUsuario: "",
     email: "",
     senha: "",
-    papel: "",
-    dataHoraRegistro: new Date()
-
   }
 
   constructor() { }

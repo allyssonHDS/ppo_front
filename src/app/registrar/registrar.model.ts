@@ -3,14 +3,12 @@ export interface RequestCreat {
     nomeUsuario: string;
     email: string;
     senha: string;
-    papel: string;
-    dataHoraRegistro: Date;
 }
 export interface ResponseCreate {
+    id: string;
     nome: string;
     nomeUsuario: string;
     email: string;
-    senha: string;
     papel: string;
     dataHoraRegistro: Date;
 }
