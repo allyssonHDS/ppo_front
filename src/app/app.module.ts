@@ -18,22 +18,16 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { HttpClientModule } from '@angular/common/http';
-import { FormBuilder, FormGroup, Validators } from "@angular/forms";
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 /*Componetes  */
 
 import { PagIniComponent } from './pag-ini/pag-ini.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrarComponent } from './registrar/registrar.component';
-import { BrokerComponent } from './broker/broker.component';
-import { CanalComponent } from './canal/canal.component';
-import { DispositivoComponent } from './dispositivo/dispositivo.component';
-import { GrupoComponent } from './grupo/grupo.component';
 
 
-import {MatCheckboxModule} from '@angular/material/checkbox';
-import { HistoricoComponent } from './historico/historico.component';
+
 
 
 
@@ -41,7 +35,6 @@ import { HistoricoComponent } from './historico/historico.component';
 @NgModule({
   declarations: [
     AppComponent,
-
     DashboardComponent,
     PagIniComponent,
     LoginComponent,
@@ -65,7 +58,8 @@ import { HistoricoComponent } from './historico/historico.component';
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
 
 
   ],
