@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.header .seta{
+    max-height: 45px;
+}
+.alt{
+   
+    margin-top: 30px;
+    margin-left: 500px;
+    width: 400px;
+    height: 450px;
+   
+}
+.title-group{
+    padding-left: 120px;
+}
+
+.est{
+    padding: 6px 158px;
+}

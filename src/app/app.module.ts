@@ -26,9 +26,14 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { PagIniComponent } from './pag-ini/pag-ini.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrarComponent } from './registrar/registrar.component';
+import { BrokerComponent } from './broker/broker.component';
+import { CanalComponent } from './canal/canal.component';
+import { DispositivoComponent } from './dispositivo/dispositivo.component';
+import { GrupoComponent } from './grupo/grupo.component';
 
 
-
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import { HistoricoComponent } from './historico/historico.component';
 
 
 
@@ -40,7 +45,12 @@ import { RegistrarComponent } from './registrar/registrar.component';
     DashboardComponent,
     PagIniComponent,
     LoginComponent,
-    RegistrarComponent
+    RegistrarComponent,
+    BrokerComponent,
+    CanalComponent,
+    DispositivoComponent,
+    GrupoComponent,
+    HistoricoComponent
   ],
   imports: [
     BrowserModule,
@@ -59,7 +69,9 @@ import { RegistrarComponent } from './registrar/registrar.component';
 
 
   ],
-  providers: [],
+  providers: [
+    
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

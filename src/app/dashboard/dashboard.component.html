@@ -5,12 +5,12 @@
         <button mat-button [matMenuTriggerFor]="menu"><i class="material-icons blue">menu</i></button>
         <mat-menu #menu="matMenu">
           <button mat-menu-item><img class="logo" src="assets/Group.png" alt="logo">Dashboard</button>
-          <button mat-menu-item><img class="logo" src="assets/computacao-em-nuvem 1 (1).png" alt="logo">Meus Brokers</button>
-          <button mat-menu-item><img class="logo" src="assets/dados 1.png" alt="logo">Meus Canais</button>
-          <button mat-menu-item><img class="logo" src="assets/dispositivos-eletronicos 1.png" alt="logo">Meus Dispositivos</button>
-          <button mat-menu-item><img class="logo" src="assets/dispositivo 1.png" alt="logo">Meus Grupos</button>
+          <button mat-menu-item routerLink="/broker"><img class="logo" src="assets/computacao-em-nuvem 1 (1).png" alt="logo" >Meus Brokers</button>
+          <button mat-menu-item routerLink="/canal"><img class="logo" src="assets/dados 1.png" alt="logo" >Meus Canais</button>
+          <button mat-menu-item  routerLink="/dispositvo"><img class="logo" src="assets/dispositivos-eletronicos 1.png" alt="logo">Meus Dispositivos</button>
+          <button mat-menu-item routerLink="/grupo"><img class="logo" src="assets/dispositivo 1.png" alt="logo" >Meus Grupos</button>
           <button mat-menu-item><img class="logo" src="assets/lista-de-controle 1.png" alt="logo">Meus Topicos</button>
-          <button mat-menu-item><img class="logo" src="assets/historia 1.png" alt="logo">Histórico</button>
+          <button mat-menu-item  routerLink="/historico"><img class="logo" src="assets/historia 1.png" alt="logo">Histórico</button>
         </mat-menu>
       Dashboard</h1>
   </span>

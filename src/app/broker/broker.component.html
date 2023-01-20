@@ -1,0 +1,50 @@
+
+<mat-toolbar class="header mat-elevation-z4">
+    <span>
+        <a routerLink="/dashboard">
+            <img class="seta" src="assets/seta.png" alt="seta">
+        </a>
+    </span>
+</mat-toolbar>
+<div class="well bg-white alt">
+    <h1 class="title-group"><strong>Meus Brokers</strong></h1>
+    <form role="form">
+        
+
+            <div>
+                <label for="userConection">Conexão</label>
+                <input class="form-control" type="text"  placeholder="Host">
+                
+                <input class="form-control" type="text"  placeholder="Porta">
+                <input class="form-control" type="text"  placeholder="Dispositivo">
+                <a><br></a>
+            </div>
+            <div>
+                <input class="form-control" type="text" placeholder="Nome de usuário">
+                <input class="form-control" type="password" placeholder="Senha">
+                <a><br></a>
+            </div>
+            <div>
+                <input class="form-control " type="text" placeholder="Keep Alive">
+                <input class="form-control " type="text" placeholder="SSL">
+                <input class="form-control " type="text" placeholder="Clean Session">
+                <a><br></a>
+            </div>
+            <div>
+                <input class="form-control " type="text" placeholder="Topicos">
+                <input class="form-control " type="text" placeholder="Last-Will QoS">
+                <input class="form-control " type="text" placeholder="Last-Will Retain">
+                <a><br></a>
+            </div>
+            <div>
+                <input class="form-control " type="text" placeholder="Canal">
+                <input class="form-control " type="text" placeholder="Publish/Subscriber">
+                <a><br></a>
+            </div>
+            <div>
+            <input type="submit" value="Salvar" class="btn btn-primary btn-lg btn-block est" routerLink="/dashboard">
+            </div>
+
+        
+    </form>
+</div>
