@@ -25,11 +25,11 @@ import { FormsModule } from '@angular/forms';
 import { PagIniComponent } from './pag-ini/pag-ini.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrarComponent } from './registrar/registrar.component';
-
-
-
-
-
+import { BrokerComponent } from './broker/broker.component';
+import { CanalComponent } from './canal/canal.component';
+import { DispositivoComponent } from './dispositivo/dispositivo.component';
+import { GrupoComponent } from './grupo/grupo.component';
+import { HistoricoComponent } from './historico/historico.component';
 
 
 @NgModule({
